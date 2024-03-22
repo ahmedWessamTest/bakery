@@ -1,0 +1,264 @@
+/* Start Global */
+body {
+    margin: 0;
+}
+p, button, span { 
+    font-family: "Alegreya sans";
+}
+h1, h2, h4{
+    font-family: "Alegreya";
+}
+h2{
+    font-size: 32px;
+    color: #303030;
+    font-weight: 400;
+}
+.container {
+    padding: 0 15px;
+    margin: auto;
+    width: 1170px;
+}
+img {
+    width: 100%;
+}
+p, span {
+    font-size: 17px;
+    color: #686868;
+    line-height: 32px;
+}
+.clear-fix {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #969696;
+}
+/* End Global */
+/* Start Heading */
+.heading {
+    background-image: url("../images/heading-image.jpg");
+    background-size: cover;
+    height: 150vh;
+    color: #ffffffeb;
+}
+.heading .content {
+    text-align: center;
+    margin: 20% 0  0 21%;
+    display: inline-block;
+}
+.heading .content h1 {
+    font-size: 76px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+.heading .content .welcome{
+    font-size: 22px;
+    color: #ffffffeb;
+}
+.heading .content .subtitle {
+    font-size: 24px;
+    width: 700px;
+    color: #ffffffeb;
+    line-height: 45px;
+}
+.heading .content .buttons button{
+    width: 130px;
+    height: 55px;
+    margin-left: 10px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5%;
+    font-size: 16px;
+}
+.heading .content .buttons .bLeft {
+    background-color: #8e7754;
+    border-color: transparent;
+}
+.heading .content .buttons .bRight {
+    background-color: transparent;
+    border-color:white ;
+    border-style: solid;
+}
+/* End Heading */
+/* start who we are */
+.we-are {
+    padding: 60px 0;
+}
+.we-are .image {
+    width: 45%;
+    display:inline-block;
+}
+.we-are .who-content {
+    display: inline-block;
+    margin-left: 35px;
+    vertical-align: top;
+}
+.we-are .who-content p {
+    width: 545px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.we-are .who-content span{
+    display: inline-block;
+    margin: 10px 0;
+}
+.we-are .who-content .list-content .img-icon {
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    height: 40px;
+}
+/* end who we are */
+/* start our location */
+.our-location {
+    padding: 60px 0;
+    background-color: #F8F8F8;
+}
+.our-location .content {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px;
+}
+.our-location .content p{
+    width: 600px;
+}
+.our-location .image {
+    display: inline-block;
+    width: 45%;
+}
+/* end our location */
+.our-baking {
+    padding: 40px 0;
+    text-align: center;
+}
+.our-baking .item {
+float: left;
+width: 350px;
+margin-left: 35px;
+}
+.our-baking .item .image {
+    width: 350px;
+}
+.our-baking .item h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #303030;
+}
+/* start contact */
+.contact {
+    padding: 60px 0;
+    background-color: #F8F8F8;
+}
+.contact .content{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+.contact .content .contact-list .list {
+    margin-top: 20px;
+}
+.contact .content .contact-list .image {
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-color: #8E7754;
+    border-radius: 50%;
+}
+.contact .content .contact-list span {
+    float: left;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.contact .map {
+    width: 45%;
+    float: left;
+}
+
+/* end contact */
+/* start details */
+.details {
+    padding: 60px 0;
+    background-color: #403D38;
+}
+.details .item {
+    float:left;
+    width: 25%;
+    color: #969696;
+}
+.details .item.about p {
+    color: #969696;
+}
+.details .item .list span{
+    float: left;
+    color: #969696;
+}
+.details .item.special .list  ,
+.details .item.houres .list {
+    height: 40px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff0d;
+    width: 92%;
+}
+.details .item.contact-details {
+    background-image: url("../images/contact-details-map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.details .item.contact-details .list {
+    height: 48px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ffffff0d;
+    width: 92%;
+}
+.details .item .list.last-list {
+    border-color: transparent;
+}
+.details .item h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.details .item .list .image-icon {
+    width: 20px;
+    float: left;
+    margin-top: 5px;
+}
+.details .item.contact-details .list .image-icon {
+    width: 30px;
+    margin-top: 1px;
+}
+/* end details */
+/* start footer */
+.footer {
+    padding: 60px 0;
+    background-color: #353330;
+    text-align: center;
+}
+.footer .logo-image {
+    width: 350px;
+    margin: 0 auto;
+}
+.footer span {
+    margin: 20px 0;
+    font-size: 15px;
+    display: block;
+}
+.footer .social-media {
+    display: inline-block;
+}
+.footer .social-item {
+    float: left;
+}
+.footer .social-item .image-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/* end footer */
